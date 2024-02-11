@@ -16,7 +16,7 @@ Here are the steps to deploy OCRemote:
 2. Export the item panel 128*128png from NEI, and change the path in `Controller\AEController.cs`.
 3. Configure your in-game OC machine.Magic memories are required as T3.5 only provides 1024kb per stick and they are insufficient in most cases!
 4. Modify the HTTP address in `OCServer/server2.lua` and deploy it to your in-game Machine.
-5. Get a blazorize token. You can create a `blazorize.txt` in the root directory for the token, or you could ask Cyl18 for it.
+5. Get a blazorize token. You can create a `blazorise.txt` in the root directory for the token, or you could ask Cyl18 for it.
 6. Make your web server available for your OC machine.A public IPv4 Address may be required for deployment in MP.
 
 ## Showcase
