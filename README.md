@@ -1,21 +1,29 @@
 # OCRemote
-## WIP：
-Fix documentation.
-Enhance component detection and wipe out all hard coded file path and Component addrs.
-Add more weeb content.
-## 部署
 
-- 安装 rider 或 vs，.net 7 sdk
-- 从 NEI 找到数据存储 导出物品面板 128*128png 把 `Controller\AEController.cs` 中路径改过去
-- OCServer/server2.lua 修改 http 地址
-- OCServer 下的文件 全部弄到 OC 里，运行 OCServer
-- 可以修改 oc 配置文件 允许访问本地 ip，解除内存限制（或者使用魔法内存），CPU 加速（我不知道是否需要）
-- 去搞一个 blazorize token 运行根目录新建 blazorize.txt, token 直接找 Cyl18 要也行
-- 反代然后运行
+OCRemote is a Blazor-powered web application which allows remote management for your AE2 Network with the help of OpenComputers mod.
+
+## Currently Work In Progress
+
+- Fix documentation.
+- Enhance component detection and remove all hard-coded file paths and Component addresses.
+- Add more weeb content for my personal preference.
+
+## Deployment
+
+Here are the steps to deploy OCRemote:
+
+1. Install Rider or Visual Studio with .NET 7 SDK.
+2. Export the item panel 128*128png from NEI, and change the path in `Controller\AEController.cs`.
+3. Configure your in-game OC machine.Magic memories are required as T3.5 only provides 1024kb per stick and they are insufficient in most cases!
+4. Modify the HTTP address in `OCServer/server2.lua` and deploy it to your in-game Machine.
+5. Get a blazorize token. You can create a `blazorize.txt` in the root directory for the token, or you could ask Cyl18 for it.
+6. Make your web server available for your OC machine.A public IPv4 Address may be required for deployment in MP.
 
 ## Showcase
 
-![a](docs/1.png)
-![a](docs/2.png)
-![a](docs/3.5.jpg)
-![a](docs/3.png)
+Here are some screenshots of our project:
+
+![Screenshot 1](docs/1.png)
+![Screenshot 2](docs/2.png)
+![Screenshot 3](docs/3.5.jpg)
+![Screenshot 4](docs/3.png)
