@@ -1,5 +1,8 @@
 # OCRemote
-
+## WIP：
+Fix documentation.
+Enhance component detection and wipe out all hard coded file path and Component addrs.
+Add more weeb content.
 ## 部署
 
 - 安装 rider 或 vs，.net 7 sdk
