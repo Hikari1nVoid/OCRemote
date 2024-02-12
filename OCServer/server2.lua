@@ -9,7 +9,7 @@ local computer = require('computer')
 
 while true do
     local v, m = xpcall(function()
-        local req = internet.request("http://106.14.115.98:125/api/OCReport")
+        local req = internet.request("http://iphere:125/api/OCReport")
         local success = true
         local start = computer.uptime()
         while success do
@@ -64,7 +64,7 @@ while true do
                     end
                     command_result_table[cid] = msg
                 end
-                local req = internet.request("http://106.14.115.98:125/api/OCReport", json.encode(command_result_table), {
+                local req = internet.request("http://iphere:125/api/OCReport", json.encode(command_result_table), {
                     ["content-type"] = "text/plain"
                 })
                 local success = true
