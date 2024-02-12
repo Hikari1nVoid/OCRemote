@@ -10,11 +10,12 @@
 
 
 @implements IDisposable
-<PageTitle>Index</PageTitle>
+<PageTitle>LSC Monitor</PageTitle>
 
-<h1>G T N H</h1>
+<h1>Lapotron Monitoring Terminal</h1>
 
-<div style="white-space: pre-line; line-height: 120%">@energyStatus</div>
+<div style="white-space: pre-line; line-height: 120%">@EnergyStatus</div>
+<h3>Amadeus is Reporting LSC data from your game.</h3>
 
 <h3>Realtime Chart</h3>
 <LineChart Style="max-width: 85%; max-height: 260px; box-sizing:border-box" @ref="horizontalLineChart" TItem="LiveDataPoint" OptionsObject="@horizontalLineChartOptions">

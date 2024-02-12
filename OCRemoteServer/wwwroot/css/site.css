@@ -2,6 +2,8 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:ghostwhite;
+    background: right/cover url("test.jpg") no-repeat;
 }
 
 h1:focus {
