@@ -10,7 +10,7 @@ namespace OCRemoteServer.Controller
         [HttpGet("{name}")]
         public async Task<IActionResult> GetImage(string name)
         {
-            var path = $@".itempanel_icons\{name}.png";
+            var path = $@"itempanel_icons/{name}.png";
             if (!System.IO.File.Exists(path))
             {
                 return File(
